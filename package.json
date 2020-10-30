@@ -1,0 +1,16 @@
+{
+  "name": "promise_example",
+  "version": "0.0.0",
+  "description": "Node.js Addons Example #1",
+  "main": "test.js",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.2.1",
+    "node-addon-api": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "compile": "node \"C:\\Program Files\\nodejs\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js\" rebuild"
+  },
+  "gypfile": true
+}
